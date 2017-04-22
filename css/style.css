@@ -1,3 +1,9 @@
+body {
+	min-height: 2500px;
+}
+
+
+
 div {
 	color: white;
 }
@@ -16,4 +22,8 @@ div {
 
 .purple {
 	background-color: purple;
+}
+
+.item {
+	min-height: 300px;
 }
