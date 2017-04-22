@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+  </head>
+  <body>
+  
+  	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-glowne" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nazwa firmy</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="menu-glowne">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        	<li class="dropdown">
+         	 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rozwiń <span class="caret"></span></a>
+         	 <ul class="dropdown-menu">
+           		 <li><a href="#">Podmenu 1</a></li>
+            	 <li><a href="#">Podmenu 2</a></li>
+         	</ul>
+        </li>
+        <li><a href="">Link</a></li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+   
+   <!-- Porownanie container i container-fluid  START -->
+    <div class="container blue text-uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dolorum quo in illum quisquam, numquam odio itaque saepe perferendis consequatur dolorem, maxime natus minima aliquam facilis. Perspiciatis natus odio numquam.</div>
+    
+    <div class="container-fluid red text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eos laborum tempore ipsam commodi dolorem atque, libero sed, eius amet soluta expedita et dolorum quae in a tenetur, nostrum aspernatur?</div>
+    
+    <!-- Porownanie container i container-fluid  STOP -->
+    
+    <!-- wykorzystanie GRID'a z Bootstrap'a START -->
+    <div class="container">
+    	<div class="row"> <!-- predefiniowana klasa ROW z Bootstrapa -->
+    	<!-- col-lg-liczba kolumn - ta 3 oznacza ile nasz element ma zajmowac kolumn - w tym wypadku 3 -->
+    	<div class="col-lg-6 col-sm-12 green text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quisquam quibusdam doloribus ipsa qui pariatur, quod magnam suscipit aliquid dolore maiores iusto a eius repellat assumenda perferendis ut blanditiis voluptatum!<a href="" class="btn btn-default btn-lg">LINK</a></div>
+    	<div class="col-lg-2 col-sm-4 purple text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iste labore non qui optio. Cumque nobis necessitatibus alias voluptatibus architecto, explicabo illo, quas repudiandae vel reiciendis modi totam libero aspernatur.<a href="" class="btn btn-primary">LINK</a></div>
+    	<div class="col-lg-2 col-sm-4 green text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dolorum. Nihil explicabo omnis totam id eveniet. Eos ratione totam nulla provident vel sit, iure asperiores, expedita ipsam ad officiis incidunt.<a href="" class="btn btn-warning btn-sm">LINK</a></div>
+    	<div class="col-lg-2 col-sm-4 purple text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis placeat maiores deserunt facere repellendus sed consequuntur corrupti quis nostrum nulla soluta, a recusandae delectus quae totam quam sapiente obcaecati optio.<a href="" class="btn btn-danger btn-xs">LINK</a></div>
+    	</div>
+    </div>
+    <!-- wykorzystanie GRID'a z Bootstrap'a STOP -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    
+    <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
